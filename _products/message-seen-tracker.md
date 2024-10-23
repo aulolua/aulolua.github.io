@@ -1,10 +1,10 @@
 ---
-name: Discord Message Read Checker
+name: Discord Message Seen Tracker
 description_markdown: >-
-  A Software Which Allows you to Check if someone whom you sent a message on discord has read the message or not.
+  A Software Which Allows you to Tracks if someone whom you sent a message on discord has seen the message or not.
 garment_type:
 price: '15.00'
-sku: message-read-checker
+sku: message-seen-tracker
 stock: 99+
 sizes:
   - Lifetime
