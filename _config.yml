@@ -2,7 +2,7 @@
 # Site
 
 title: Store
-url: "https://aulolua.github.io/fur-jekyll-template"
+url: "https://aulolua.github.io/"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -11,16 +11,16 @@ snipcart_currency: "usd"
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Fur t-shirt store
+description: "Aulolua's Projects"
 author:
-  name: fur
-  email: fur@example.com
-  twitter: fur # twitter username without the @ symbol
+  name: aulo
+  email: auloaulo@duck.com
+  twitter: aulolua # twitter username without the @ symbol
   phone: "+1 23456789"
 social:
-  name: Fur Template
+  name: Aulo
   links:
-    - https://github.com/CloudCannon/fur-jekyll-template
+    - https://aulolua.github.io
 
 # -----
 # Build
