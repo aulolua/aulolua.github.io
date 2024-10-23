@@ -12,8 +12,8 @@ sizes:
 styles:
   - name: GUI
     color: '#000000'
-    image: /images/products/deer/black.jpg
+    image: /images/products/message-seen-tracker/Untitled.png
   - name: CLI
     color: '#39589e'
-    image: /images/products/deer/blue.jpg
+    image: /images/products/message-seen-tracker/Untitled.png
 ---
