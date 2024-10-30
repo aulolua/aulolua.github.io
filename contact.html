@@ -9,6 +9,7 @@ map:
   address: 'Dunedin, New Zealand'
   zoom: 13
 ---
+
 <style>
         * {
             box-sizing: border-box;
@@ -86,32 +87,6 @@ map:
     </div>
 </div>
 
-<script>
-    function showContent(type) {
-        const cryptoTab = document.getElementById("cryptoTab");
-        const fiatTab = document.getElementById("fiatTab");
-        const cryptoContent = document.getElementById("cryptoContent");
-        const fiatContent = document.getElementById("fiatContent");
-
-        if (type === 'crypto') {
-            cryptoTab.classList.add("selected");
-            fiatTab.classList.remove("selected");
-            cryptoContent.style.display = "block";
-            fiatContent.style.display = "none";
-        } else {
-            fiatTab.classList.add("selected");
-            cryptoTab.classList.remove("selected");
-            fiatContent.style.display = "block";
-            cryptoContent.style.display = "none";
-        }
-    }
-
-    // Initialize to show crypto content by default
-    document.addEventListener("DOMContentLoaded", () => {
-        showContent('crypto');
-    });
-</script>
-
 <div class="contact-box">
 	<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
 		<h3>Send us a message</h3>
@@ -161,3 +136,28 @@ map:
 	}
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
+<script>
+    function showContent(type) {
+        const cryptoTab = document.getElementById("cryptoTab");
+        const fiatTab = document.getElementById("fiatTab");
+        const cryptoContent = document.getElementById("cryptoContent");
+        const fiatContent = document.getElementById("fiatContent");
+
+        if (type === 'crypto') {
+            cryptoTab.classList.add("selected");
+            fiatTab.classList.remove("selected");
+            cryptoContent.style.display = "block";
+            fiatContent.style.display = "none";
+        } else {
+            fiatTab.classList.add("selected");
+            cryptoTab.classList.remove("selected");
+            fiatContent.style.display = "block";
+            cryptoContent.style.display = "none";
+        }
+    }
+
+    // Initialize to show crypto content by default
+    document.addEventListener("DOMContentLoaded", () => {
+        showContent('crypto');
+    });
+</script>
